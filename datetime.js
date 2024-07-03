@@ -6,7 +6,8 @@ function updateDateTime() {
     const minutes = now.getUTCMinutes().toString().padStart(2, '0');
     const seconds = now.getUTCSeconds().toString().padStart(2, '0');
     const time = `${hours}:${minutes}:${seconds} UTC`;
-    document.getElementById('datetime').innerText = `${day}, ${time}`;
+    document.getElementById('day').innerText = day;
+    document.getElementById('time').innerText = time;
 }
 
 setInterval(updateDateTime, 1000);

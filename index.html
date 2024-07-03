@@ -9,7 +9,8 @@
 <body>
     <header class="header">
         <a href="index.html" class="logo"><span>PEL</span>UMI</a>
-        <div id="datetime" class="datetime"></div>
+        <div id="day" class="datetime" data-testid="currentDay"></div>
+        <div id="time" class="datetime" data-testid="currentTimeUTC"></div>
         <!-- <nav class="navbar">
             <a href="#">Portfolio</a>
         </nav> -->
@@ -25,7 +26,7 @@
             
         </div>
         <div class="img-box">
-            <img src="pelu.jpg" alt="pelumi">
+            <img src="pelu.jpg" alt="pelumi" data-testid="slackProfilePicture">
         </div>
     </section>
     <section class="about" id="goal">
@@ -49,6 +50,9 @@
             Building robust, scalable, and maintainable code is another key goal. I will emphasize writing clean, modular, and maintainable code by following coding standards and best practices. Designing and implementing scalable frontend architectures that can handle growth and increased user load effectively is also a priority.
                 
             By focusing on these goals, I can stay at the forefront of the industry, enhance my skill set, and contribute significantly to the success of my projects and teams.</p>
+            <a href="https://hng.tech/learn">hng.tech/learn.</a>
+            <a href="https://keyword.dog/">keyword.dog</a>
+            <a href="https://scrapeanyweb.site/"> scrapeanyweb.site</a>
         </div>
     </section>
     <section class="footer">
@@ -64,7 +68,7 @@
             </li>
 
         </ul>
-        <p class="copyright">2023</p>
+        <p class="copyright" data-testid="slackEmail">Email: akintoyeoluwapelumiv@gmail.com</p>
     </section>
 
     <script src="datetime.js"></script>
