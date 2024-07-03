@@ -84,6 +84,7 @@ span {
     gap: 2em;
     padding: 30px 5%;
     flex-wrap: wrap;
+    /* margin-top: 80px; */
 }
 
 .home-content {
@@ -244,5 +245,11 @@ span {
 
     .about-content h3 {
         font-size: 62px;
+    }
+}
+
+@media (max-width: 599px) {
+    .home {
+        margin-top: 110px; /* Adjust margin for phones */
     }
 }
