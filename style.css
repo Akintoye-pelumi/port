@@ -115,10 +115,10 @@ span {
     max-width: 100%;
 }
 
-.img-box img {
+/* .img-box img {
     width: 100%;
     height: auto;
-}
+} */
 
 .about {
     display: flex;
@@ -161,8 +161,8 @@ span {
 }
 
 .about-content a:hover {
-    color: #ff6347; /* Hover color */
-    text-decoration: none; /* Remove underline on hover */
+    color: #ff6347; 
+    text-decoration: none; 
 }
 
 .footer {
@@ -250,6 +250,22 @@ span {
 
 @media (max-width: 599px) {
     .home {
-        margin-top: 110px; /* Adjust margin for phones */
+        margin-top: 110px; 
+    }
+
+    .img-box img{
+        width: 295px;
+    }
+}
+
+@media (max-width: 425px) {
+    .img-box img {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-content {
+        margin-top: 80px;
     }
 }
